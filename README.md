@@ -32,3 +32,6 @@ InstaGap is a lightweight JavaScript/TypeScript application that allows users to
 2. You can analyze the lists of followers, unfollowers, and mutual subcriptions.
 3. The script does not allow to unsubscribe from the unfollowers via API.
 4. Be mindful of the rate limits imposed by Meta.
+
+___________
+# InstaGap
