@@ -25,3 +25,10 @@ InstaGap is a lightweight JavaScript/TypeScript application that allows users to
 5. Specify your username in the 'username' field within the script.
 6. Open *web developer tools* while staying on the Instagram home page after logging: Tools -> Browser Tools -> Web Developer Tools.
 7. Copy and paste the provided script into the console and hit enter.
+
+## Results
+
+1. After running the script in the console, this will ~5-10 seconds to generate the results.
+2. You can analyze the lists of followers, unfollowers, and mutual subcriptions.
+3. The script does not allow to unsubscribe from the unfollowers via API.
+4. Be mindful of the rate limits imposed by Meta.
