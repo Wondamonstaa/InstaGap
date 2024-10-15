@@ -23,7 +23,7 @@ InstaGap is a lightweight JavaScript/TypeScript application that allows users to
 3. Navigate to https://www.instagram.com/
 4. Enter your credentials.
 5. Specify your username in the 'username' field within the script.
-6. Open *web developer tools* while staying on the Instagram home page after logging: Tools -> Browser Tools -> Web Developer Tools.
+6. Open *Web Developer Tools* while staying on the Instagram home page after logging: Tools -> Browser Tools -> Web Developer Tools.
 7. Copy and paste the provided script into the console and hit enter.
 
 ## Results
