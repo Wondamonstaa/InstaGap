@@ -1,0 +1,21 @@
+{
+  "name": "InstaGap",
+  "version": "1.0.0",
+  "description": "Tool to compare Instagram followers and followings.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wondamonstaa/InstaGap.git"
+  },
+  "author": "Kiryl Baravikou",
+  "license": "MIT"
+}
