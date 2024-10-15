@@ -19,3 +19,6 @@ InstaGap is a lightweight JavaScript/TypeScript application that allows users to
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/instagap.git
+2. Log into your browser of choice (Google Chrome, Mozilla, Safari etc.).
+3. Open ```bash
+   https://www.instagram.com/
