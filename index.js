@@ -110,7 +110,7 @@ iDontFollowBack = [];
     console.log({ iDontFollowBack });
 
     console.log(
-      Process is done: Type 'copy(followers)' or 'copy(followings)' or 'copy(dontFollowMeBack)' or 'copy(iDontFollowBack)' in the console and paste it into a text editor to take a look at it
+      "Process is done: Type 'copy(followers)' or 'copy(followings)' or 'copy(dontFollowMeBack)' or 'copy(iDontFollowBack)' in the console and paste it into a text editor to take a look at it"
     );
   } catch (err) {
     console.log({ err });
