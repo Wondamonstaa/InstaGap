@@ -1,8 +1,5 @@
-const username = "YOUR_INSTAGRAM_USERNAME";
+const username = "your insta username";
 
-/**
- * Initialized like this so we can still run it from browsers, but also use typescript on a code editor for intellisense.
- */
 let followers = [{ username: "", full_name: "" }];
 let followings = [{ username: "", full_name: "" }];
 let dontFollowMeBack = [{ username: "", full_name: "" }];
@@ -18,7 +15,7 @@ iDontFollowBack = [];
     console.log("Process started! Give it a couple of seconds");
 
     const userQueryRes = await fetch(
-      https://www.instagram.com/web/search/topsearch/?query=${username}
+      `https://www.instagram.com/web/search/topsearch/?query=${username}`
     );
 
     const userQueryJson = await userQueryRes.json();
@@ -32,7 +29,7 @@ iDontFollowBack = [];
 
     while (has_next) {
       await fetch(
-        https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables= +
+        `https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=` +
           encodeURIComponent(
             JSON.stringify({
               id: userId,
@@ -65,7 +62,7 @@ iDontFollowBack = [];
 
     while (has_next) {
       await fetch(
-        https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables= +
+        `https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=` +
           encodeURIComponent(
             JSON.stringify({
               id: userId,
@@ -116,3 +113,4 @@ iDontFollowBack = [];
     console.log({ err });
   }
 })();
+
